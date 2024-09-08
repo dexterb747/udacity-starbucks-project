@@ -10,7 +10,7 @@ The motivation for this project is that I am a regular Starbucks customer and I 
 
 #Files in this project
 
-There are 6 files in this project as listed below.
+There are 6 files and 1 link in this project as listed below.
 1- README.md which provides a short overview of the project itself and the relevant files.
 2- datasets.zip/profile.json which provides has data on the customers from Starbucks who uses the rewards program.
 3- datasets.zip/portfolio.json which provides data on the actual offers which Starbucks defines.

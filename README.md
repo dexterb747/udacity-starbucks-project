@@ -10,11 +10,15 @@ The motivation for this project is that I am a regular Starbucks customer and I 
 
 #Files in this project
 
-There are 4 files in this project as listed below.
+There are 6 files in this project as listed below.
 1- README.md which provides a short overview of the project itself and the relevant files.
-2- profile.json which provides has data on the customers from Starbucks who uses the rewards program.
-3- portfolio.json which provides data on the actual offers which Starbucks defines.
-4- transcript.json which provides data on the actual offer and customer associations which result in purchases.
+2- datasets.zip/profile.json which provides has data on the customers from Starbucks who uses the rewards program.
+3- datasets.zip/portfolio.json which provides data on the actual offers which Starbucks defines.
+4- datasets.zip/transcript.json which provides data on the actual offer and customer associations which result in purchases.
+5- Starbucks_Capstone_notebook.ipynb which is the notebook.
+6- Starbucks_Capstone_notebook_output.html which is the output of the notebook.
+7- https://medium.com/@dexterbujan/starbucks-capstone-challenge-31fe0ada144e This is a link to the blog post.
+
 
 Project Definition:
 This project uses Starbucks data from the rewards program to engage with customers on various offers Starbucks has. The motivation for this project is that I am a regular Starbucks customer and I wanted to utilize this dataset for this project to understand how they attract their customers to increase sales.

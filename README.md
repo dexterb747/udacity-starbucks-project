@@ -2,11 +2,11 @@
 
 #Libraries
 
-The libraries used for this project are pandas and sklearn.
+The libraries used for this project are pandas, matplotlib and sklearn.
 
 #Motivation
 
-The motivation for this project is that I am a regular Starbucks customer and I wanted to utilize this dataset for this project to understand how they attract their customers to increase sales.
+The motivation for this project is that I am a regular Starbucks customer and I wanted to utilize this dataset to understand how Starbucks reward programs work. The scope of the project is restricted to predicting if a customer will complete an offer based on the customer’s age and income.
 
 #Files in this project
 
@@ -21,32 +21,36 @@ There are 6 files and 1 link in this project as listed below.
 
 
 Project Definition:
-This project uses Starbucks data from the rewards program to engage with customers on various offers Starbucks has. The motivation for this project is that I am a regular Starbucks customer and I wanted to utilize this dataset for this project to understand how they attract their customers to increase sales.
+This project uses Starbucks data from the rewards program to engage with customers on various offers Starbucks has. The motivation for this project is that I am a regular Starbucks customer and I wanted to utilize this dataset to understand how Starbucks reward programs work. The scope of the project is restricted to predicting if a customer will complete an offer based on the customer’s age and income.
 
 Problem Statement-
-The problem selected is to determine the communication channel with the biggest impact on customers which will increase purchases hence increase sales for Starbucks.
+The problem selected for this project is to predict if a customer will complete an offer based on the customer’s age and income. This is significant in addressing so that Starbucks can utilize the most appropriate offers targeted to the relevant age and income groups hence increase sales.
 
 Results:
 
-The relevant columns were removed from the analysis and model to ensure the focus was on the communication channels used which resulted in the offer being completed.
-
-The model was created and fitted successfully. Then the order of importance was calculated.
-
+Below shows the confusion matrix for the decision tree which shows a high level of accurate predictions. This was also confirmed by the accuracy score of 0.7589.
+Below shows the confusion matrix for the random forest which shows a high level of accurate predictions. This was also confirmed by the accuracy score of 0.7564.
 
 Conclusion:
 
-The channel which had the biggest impact on resulting in a transaction completed is social channels. Starbucks should ensure that they continue to use and add more to this social channel to increase sales. They can continue using the other channels as well like web and mobile. They can also test email channel by removing it as a channel for some of the programs to determine the impact. I had a challenge to split the values from the channels column so I edited the json file to split it into 4 channels columns due to limited time.
+Although the Decision Tree model accuracy is 0.7589, it can be used to predict if a customer will complete the offer or not and improved over time. Starbucks can now use this to target the relevant age and income groups to try to get more sales. Monitoring of the model’s performance should be done so that any improvements to the processing time or accuracy can be done.
 
-There are a number of other areas which can be further analyzed if I had more time like determining impact of income, age, increasing the reward amount etc., increasing/decreasing the duration of an offer.
+Improvements:
 
-Links used for reference:
+There are a number of other areas which can be further analyzed if I had more time like determining impact of increasing the reward amount etc., increasing/decreasing the duration of an offer, other metrics and other models to evaluate to select the best one to use.
+
+Acknowledgment:
+
+I would like to thank the person in Udacity for helping resolve the missing data files for this project. Also, I would like to thank the persons from the relevant websites below for their content in these webpages.
 
 https://www.w3schools.com/python/pandas/pandas_json.asp
 
 https://sparkbyexamples.com/pandas/pandas-replace-nan-with-blank-empty-string/
 
-Merge two Pandas DataFrames on certain columns — GeeksforGeeks
+https://www.geeksforgeeks.org/merge-two-pandas-dataframes-on-certain-columns/
 
 https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
 
-How To Apply Lambda Functions To Python Pandas? (projectpro.io)
+https://www.projectpro.io/article/pandas-apply-lambda/951
+
+https://scikit-learn.org/stable/
